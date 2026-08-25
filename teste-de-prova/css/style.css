@@ -1,0 +1,165 @@
+/* === IMPORTAÇÃO DE FONTES */
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Fredoka:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&display=swap');
+/*
+Follow - font-family: "Fredoka", sans-serif;
+Medu - Oswald
+*/
+/* ==========================*/
+
+/* ==== FORMATAÇÃO GERAL === */
+html{
+    font-size: clamp(1rem, 2vw + 0.8rem, 3rem);
+    font-family: "Epilogue", sans-serif;
+}
+h1{
+    font-family: "Nunito", sans-serif;
+}
+h2,h3,h4,h5,h6{
+    font-family: "Oswald", sans-serif;
+}
+
+/*=== header ===*/
+header{
+  text-align: center;
+  padding: 3vw 10vw 3vw 10vw;
+}
+
+
+header ul {
+ font-size: 0.45rem;
+color:black; 
+
+}
+header ul li {
+      padding: 1vw 1vw 1vw 1vw;
+}
+
+header button.bnt {
+    background-color: #ffbb00;
+    color: white;
+    padding: 1vw 3vw;
+    border-radius: 5px;
+    transition: ease-out 150ms;
+}
+.bnt:hover {
+    transform: scale(0.9);
+}
+/*=== banner===*/
+section.bunner{
+    background-color: rgba(253, 198, 198, 0.692);
+    text-align: center;
+}
+section.bunner h1{
+    font-size: 1.5rem;
+    padding: 1vw 1vw;
+    font-weight: bold;
+}
+section.bunner p{
+    font-size: 0.4rem;
+
+}
+section.bunner button.bnt2 {
+    background-color: #f7093d;
+    color: white;
+    padding: 1vw 3vw;
+    border-radius: 50px;
+    transition: ease-out 150ms;
+}
+.bnt2:hover {
+    transform: scale(0.9);
+}
+
+section.foods {
+     text-align: center;
+   padding: 5vw 0vw;
+   background-color: #dce8fd;
+}
+section.foods h1{
+        font-size: 1.5rem;
+}
+section.foods h4{
+    font-size: 0.4rem;
+    color: #00A149;
+}
+section.foods h5{
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-bottom: 1px solid #FFD40D;
+}
+
+section.foods ul li p{
+    color: #FFD40D;
+    font-size: 0.7rem;
+}
+
+section.foods ul li {
+  background-color: white;
+  width: 30%;
+  margin: 0 5vw 5vw auto;
+}
+section.BravisThemes {
+text-align: center;
+}
+section.BravisThemes a img {
+    width: 8%;
+    border-radius: 50px;
+}
+section.BravisThemes img{
+    width: 70%;
+}
+section.BravisThemes p{
+font-size: 0.6rem;
+}
+section.BravisThemes h1{
+    font-weight: bolder;
+}
+footer{
+     background-color: #dce8fd;  
+}
+footer p {
+    font-size: small;
+    font-weight: 900;
+}
+footer p span{
+color: #f7093d;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERY - DESKTOP */
+@media  screen and (min-width: 600px) {
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;     
+}
+header ul{
+display: flex;
+gap: 2vw;
+text-align: left;
+}
+
+section.bunner  {
+ display: flex;
+   gap: 2vw;
+  text-align: left;
+}
+section.foods ul{
+    display: flex;
+    justify-content: space-between;
+   align-items: center; 
+}
+
+
+
+}

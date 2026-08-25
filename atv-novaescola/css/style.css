@@ -1,0 +1,165 @@
+html {
+  font-size: clamp(1rem, calc(0.5rem + 1vw), 1.625rem);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+  background-color: #fff2f3;
+  text-align: center;
+  padding: 3vw 10vw 3vw 10vw;
+  
+}
+header h1{
+  font-size: 2rem;
+  font-weight: bold;
+   
+}
+header ul  {
+font-size: 1rem;
+color: #737373; 
+}
+
+.join {
+  background-color: #96bb7c;
+  padding: 1.5vw 1.5vw;
+  color: white;
+border-radius: 5px;
+display: inline-block;
+transition: ease-out 150ms;
+}
+.join:hover{
+  transform: scale(0.9);
+} 
+.learn {
+  color: #96bb7c;
+  padding: 1.5vw 1.5vw;
+border-radius: 5px;
+display: inline-block;
+transition: ease-out 150ms;
+border: 1px solid #96bb7c;
+  }
+  .learn:hover{
+  transform: scale(0.9);
+}
+  
+
+/* === bunner===*/
+section.bunner {
+  background-color: #fff2f3;
+  padding: 5vw 5vw ;
+  justify-content: center;
+  text-align: center;
+}
+section.bunner h3 {
+  color: #96BB7C;
+  
+}
+section.bunner h2 {
+  font-size: 3.62rem;
+  font-weight:bold;
+  color: #252B42;
+  margin-top: 1.5vw;
+}
+section.bunner p {
+  font-size: 1.25rem;
+  color: #737373;
+  margin-top: 2vw;
+}
+/*===team===*/
+.team{
+   text-align: center;
+   padding: 5vw 0vw;
+}
+section.team h3 {
+  color: #96BB7C;
+  font-size: 1rem;
+  
+}
+section.team h2 {
+  font-size: 1.50rem;
+  font-weight: bold;
+  color: #252B42; 
+  
+}
+section.team p {
+  font-size: 1.25rem;
+  color: #737373;
+  margin-top: 2vw;
+  
+}
+
+section.team ul li {
+  background-color: #ecf0e8;
+  width: 80%;
+  margin: 0 5vw 5vw auto;
+ 
+}
+
+.team ul li img {
+  width: 100%;
+}
+.team h3.fah{
+  color: black;
+  font-weight: bold;
+}
+
+/*===Newsletter===*/
+.Newsletter{
+   text-align: center;
+   padding: 5vw 0vw;
+   background-color: #fff2f3;
+}
+section.Newsletter h3 {
+   color: #96BB7C;
+  font-size: 1rem;
+}
+section.Newsletter h2 {
+  font-size: 1.50rem;
+  font-weight: bold;
+  color: #252B42; 
+}
+section.Newsletter p {
+  font-size: 1.25rem;
+  color: #737373;
+  margin-top: 2vw;
+  
+}
+/*===footer===*/
+footer{
+  justify-content: center;
+  text-align: center;
+}
+
+@media only screen and (min-width: 600px){
+  header{
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 10vw 3vw 10vw;
+  }
+ 
+
+header h1{
+  display: flex;
+  gap: 1.5vw;
+ align-items: center;
+   
+}
+header ul {
+  display: flex;
+  align-items: center;
+}
+.bunner {
+  display: flex;
+   gap: 2vw;
+  text-align: left;
+ 
+}
+.team ul {
+  display: flex;
+}
+footer{
+  display: flex;
+   gap: 2vw;
+  text-align: left;
+}
+
+} 

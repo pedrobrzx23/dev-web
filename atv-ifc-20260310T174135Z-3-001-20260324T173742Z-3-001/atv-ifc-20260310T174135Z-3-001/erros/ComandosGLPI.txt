@@ -1,0 +1,10 @@
+13-segundo body aberto
+20-<p> aberto dentro da <h3>
+23-<p> aberta dentro da <h3>
+25-<strong> nao fechada na linha 25
+58-aspas nao fechadas dentrodo href
+61-aspas nao fechadas dentrodo href
+66 duas </h2> mas nenhuma <h2> abrindo a tag
+110- um body fechando onde nao devia
+86- escrito for="arquivo" e não for="file"
+82- for="tel" nao feita

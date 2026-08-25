@@ -1,0 +1,93 @@
+html {
+    font-size: clamp(0.9rem, calc(0.5rem + 1.5vw), 2.5rem);
+    font-family: "Heebo", sans-serif;
+}
+
+/* === header === */
+
+header ul li {
+text-align: center;
+padding: 4vw 0 1vw 0;
+}
+
+/* === banner === */
+section.banner{
+    text-align: center;
+    padding: 10vw 5vw 10vw 5vw;
+}
+section.banner img{
+    width: 50%;
+}
+
+section.banner h1 {
+  font-size: 2rem;
+}
+
+section.banner p {
+  padding: 1vw 0vw 1vw 0vw;
+}
+
+section.banner p a{
+    background-color: #FF6464 ;
+    color: rgb(255, 252, 252);
+    padding: 10px 20px 10px 20px;
+    display: inline-block;
+}
+
+/*=== RC-POSTS ===*/
+
+section.rc-posts {
+    background: #edf7f6;
+    padding: 5vw 2vw 5vw 2vw;
+}
+ section.rc-posts h2 {
+    text-align: center;
+ }
+
+ section.rc-posts ul li {
+    background-color: white;
+    margin: 2vw 0vw 2vw 0vw;
+    padding: 15px 10px 15px 10px;
+ }
+
+ section.rc-posts ul li h3 {
+    font-size: 1.3rem ;
+ }
+
+ section.rc-posts ul li p {
+    margin: 1vw 0vw 1vw 0vw;
+ }
+
+  /*=== FT-WORKS ===*/
+
+section.ft-works {
+    background-color: white;
+    padding: 5vw 2vw 5vw 2vw;
+}
+
+ section.ft-works h2 {
+    text-align: center;
+ }
+
+ section.ft-works ul li h3 {
+    font-size: 1.3rem;
+    color: #21243D;
+ }
+ section.ft-works ul li p.info {
+   color: #8695A4;
+ }
+ section.ft-works ul li p.info span {
+   background-color: black;
+   border-radius: 20px;
+   padding: 5px 10px 5px 10px;
+ }
+
+ section.ft-works {
+    margin: 1vw 0 1vw 0;
+ }
+
+ section.ft-works img {
+    margin-right: auto;
+    width: 100%;
+ }
+

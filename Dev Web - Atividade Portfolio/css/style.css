@@ -1,0 +1,24 @@
+html {
+  font-size: clamp(0.9rem, calc(0.5rem + 1.5vw), 2.5rem);
+font-family: "Heebo", sans-serif;
+}
+
+/* === Header === */
+
+header nav ul li {
+text-align: center;
+padding: 2vw  2vw;
+}
+header nav ul li:hover {
+background-color: aqua;
+}
+
+/* === bunner ===*/
+
+section.bunner {
+    text-align: center;
+    padding: 10vw 4vw 10vw 4vw;
+}
+section.bunner img {
+    width: 50%;
+}

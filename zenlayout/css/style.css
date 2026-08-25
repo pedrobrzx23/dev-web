@@ -1,0 +1,154 @@
+/* === IMPORTAÇÃO DE FONTES */
+
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Fredoka:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+/*
+Fontes Disponíveis:
+font-family: "Urbanist", sans-serif;  Sugiro usar esta 
+font-family: "Fredoka", sans-serif;
+font-family: "Epilogue", sans-serif;
+font-family: "Nunito", sans-serif;
+font-family: "Oswald", sans-serif;
+*/
+/* ==========================*/
+
+/* ==== FORMATAÇÃO GERAL === */
+html{
+    font-size: clamp(1rem, 2vw + 0.8rem, 3rem); 
+}
+/*===header===*/
+header{
+    background-color: #d08aa5;
+    padding: 2vw 5vw 2vw 5vw;
+    text-align: center;
+    font-size: 0.4rem;
+}
+header ul li {
+    padding: 2vw 2vw 2vw 2vw;   
+}
+/*===inicio===*/
+.inicio{
+    background-color: #d08aa5;
+    padding: 5vw 2vw 5vw 2vw;
+    color: white;
+    text-align: center;
+
+}
+.inicio h1 {
+font-weight: 700;
+font-size: 1.2rem;
+  padding: 1vw 1vw;
+}
+.inicio h1 span {
+    border-bottom: solid 5px white;
+}
+.inicio p{
+    font-size: 0.6rem;
+    padding: 1vw 1vw;
+}
+.inicio a {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding: 1vw 1vw;
+      
+}
+
+/*=== SocialEngagement ===*/
+
+.SocialEngagement ul{
+    background-color: #f0d8e1;
+    padding: 4vw 4vw 4vw 4vw;
+    
+}
+.SocialEngagement ul li {
+    background-color: white;
+    margin: 3vw 3vw 3vw 3vw;
+    padding: 2vw 2vw 2vw 2vw;
+     border-radius: 10px;
+}
+.SocialEngagement h3 {
+    font-size: 0.8rem;
+}
+.SocialEngagement h4{
+font-size: 0.4rem;
+color: #d08aa5;
+}
+.SocialEngagement h5{
+font-size: 0.4rem;
+color: #81a9ff;
+}
+.SocialEngagement h6{
+font-size: 0.4rem;
+color: #ffc163;
+}
+
+
+.SocialEngagement p {
+    font-size: 0.4rem;
+}
+.SocialEngagement a{
+       background-color: #e668b3;
+        border-radius: 20px;
+        padding: 2vw 2vw 2vw 2vw;
+}
+/*===sandbox===*/
+
+.sandbox{
+    text-align: center;
+    padding: 2vw 2vw 2vw 2vw
+}
+.sandbox h3{
+    color: gray;
+    font-size: 0.6rem;
+    font-weight: 700;
+}
+.sandbox h1 {
+    font-size: 0.8rem;
+    margin: 3vw 3vw 3vw 3vw ;
+
+}
+.sandbox p {
+    font-size: 0.5rem;
+}
+.sandbox a {
+    font-size: 0.7rem;
+}
+
+
+/*===footer===*/
+footer {
+    background-color: #d08aa5;
+    color: white;
+    text-align: center;
+    padding: 5vw 5vw 5vw 5vw;
+}
+footer p {
+    font-size: 0.5rem;
+}
+
+
+
+/* MEDIA QUERY - DESKTOP */
+@media  screen and (min-width: 600px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+ }
+ header ul {
+    display: flex;
+    color: white;
+ }
+
+.SocialEngagement ul {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+ .sandbox div{
+        display: flex;
+        justify-content: space-between;
+        
+ }
+}
