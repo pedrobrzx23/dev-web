@@ -1,0 +1,147 @@
+/* === IMPORTAÇÃO DE FONTES */
+
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Fredoka:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+/*
+Fontes Disponíveis:
+// Sugiro usar esta 
+font-family: "Urbanist", sans-serif; 
+font-family: "Fredoka", sans-serif;
+font-family: "Epilogue", sans-serif;
+font-family: "Nunito", sans-serif;
+font-family: "Oswald", sans-serif;
+*/
+/* ==========================*/
+
+/* ==== FORMATAÇÃO GERAL === */
+html {
+  font-size: clamp(1rem, 2vw + 0.8rem, 3rem);
+}
+
+header {
+  padding: 3vw 3vw 3vw 3vw;
+  text-align: center;
+}
+header ul li {
+  padding: 2vw 2vw;
+}
+header button {
+  background-color: #2baaff;
+  color: white;
+  border-radius: 20px;
+  padding: 1vw 3vw;
+  transition: ease-out 150ms;
+}
+header button:hover{
+    transform: scale(0.9);
+    background-color: #394864;
+}
+/*===bunner===*/
+.bunner {
+  padding: 3vw 3vw 3vw 3vw;
+  text-align: center;
+}
+.bunner h1 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.623);
+}
+.bunner h1 span {
+  color: #2bceff;
+}
+.bunner p {
+  font-size: 0.6rem;
+  color: rgba(0, 0, 0, 0.438);
+  padding: 0vw 0vw 2vw;
+}
+
+.bunner button {
+  background-color: #2bceff;
+  color: white;
+  border-radius: 20px;
+  padding: 1vw 3vw;
+  transition: ease-out 150ms;
+}
+.bunner button:hover{
+    transform: scale(0.9);
+    background-color: #394864;
+}
+.bunner img {
+  padding: 2vw 2vw;
+}
+/*===do===*/
+.do {
+  padding: 3vw 3vw 3vw 3vw;
+  text-align: center;
+  background-color: #5eb8f030;
+}
+.do h2 {
+  color: #2bceff;
+  font-size: 0.6rem;
+  padding: 2vw 2vw;
+}
+.do h1 {
+  font-size: 1.7rem;
+}
+.do ul li {
+  padding: 3vw 3vw 3vw 3vw;
+}
+.do ul li h1 {
+  font-size: 0.9rem;
+}
+.do ul li p {
+  font-size: 0.7rem;
+}
+
+/*===footer===*/
+footer {
+  background-color: #394864;
+  padding: 10vw;
+  text-align: center;
+}
+footer div {
+  border-top: 1px solid rgb(119, 119, 119);
+}
+footer div p {
+  color: white;
+}
+footer ul {
+  display: flex;
+  gap: 6vw;
+  justify-content: center;
+}
+
+/* MEDIA QUERY - DESKTOP */
+@media screen and (min-width: 600px) {
+  header {
+    text-align: left;
+    padding: 2vw 16vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header ul {
+    display: flex;
+  }
+  header img {
+    width: 50%;
+  }
+  header a {
+    font-size: small;
+  }
+  header button {
+    font-size: small;
+  }
+  .bunner {
+    display: flex;
+    justify-content: space-between;
+  }
+  .bunner img {
+    width: 60%;
+  }
+  .do ul {
+    display: flex;
+  }
+  .do h1 {
+    font-size: 2rem;
+  }
+}
